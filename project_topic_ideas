@@ -7,3 +7,4 @@
 5) ML to estimate where a person is from --55--
 6) ML to estimate electricity consumption for a city (hourly,dayly,weekly,monthly) --50--
 7) ML to estimate electricity consumption for a house (hourly,dayly,weekly,monthly) --70--
+8) ML to estimate weather of next days (tomorrow, 1 week later etc.)
