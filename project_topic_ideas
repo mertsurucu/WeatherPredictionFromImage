@@ -1,7 +1,9 @@
 --- ML project ideas to vote later ---
 
-1) ML to identify traffic signs from given image or video streams maybe
+1) ML to identify traffic signs from given image or video streams maybe --45--
 2) ML to estimate house prices in a city by using special attributes of them (like size,room number,location etc.)
 3) ML to identify famous places (like Eiffel, Anıtkabir, Pisa etc.)
 4) ML to identify bus number from it's picture and find&draw it's direction onto a map
-5) ML to estimate where a person is from
+5) ML to estimate where a person is from --55--
+6) ML to estimate electricity consumption for a city (hourly,dayly,weekly,monthly) --50--
+7) ML to estimate electricity consumption for a house (hourly,dayly,weekly,monthly) --70--
