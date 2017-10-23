@@ -8,4 +8,6 @@
 6) ML to estimate electricity consumption for a city (hourly,dayly,weekly,monthly) --50--
 7) ML to estimate electricity consumption for a house (hourly,dayly,weekly,monthly) --70--
 8) ML to estimate weather of next days (tomorrow, 1 week later etc.)
-9) estimating rate of traffic accident risc in a place in a city
+9) predicting rate of traffic accident risc in a place in a city
+10) predicting a city where a human can live happily
+11) finding how livable a city is (traffic, population, climate etc) .
