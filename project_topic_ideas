@@ -8,6 +8,6 @@
 6) ML to estimate electricity consumption for a city (hourly,dayly,weekly,monthly) --50--
 7) ML to estimate electricity consumption for a house (hourly,dayly,weekly,monthly) --70--
 8) ML to estimate weather of next days (tomorrow, 1 week later etc.)
-9) estimating rate of traffic accident risc in a place in a city
+9) ML to estimate rate of traffic accident risc in a place in a city
 10) ML to estimate possible crime, identify any weapon, knife, blood etc. from the street cameras(streams maybe) and send it to the police.
 11) ML to esitimate your best parter(https://www.kaggle.com/annavictoria/speed-dating-experiment/kernels)if he/she is near by 
