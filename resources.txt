@@ -1,13 +1,62 @@
 Useful Sites:
+https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_feature2d/py_table_of_contents_feature2d/py_table_of_contents_feature2d.html (Feature Detection and Description)
+https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_feature2d/py_sift_intro/py_sift_intro.html#sift-intro (SIFT)
 
 
 Useful PDFs:
+https://goo.gl/PbWd1i releated work(Classification of Weather Situations on Single Color Images) 
+https://goo.gl/uVWyYx about Descriptors(Evaluation of Color Descriptors for Object and Scene Recognition)
+https://goo.gl/DU7KHq SIFT(The Scale Invariant Feature Transform)
 
 
 Useful Libraries(Image_Descrtiptors,Projects,Codes etc.):
 
+https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_feature2d/py_sift_intro/py_sift_intro.html#sift-intro (SIFT)
 
 Useful Sentences,Quotes:
 
 
 Feature Advices for Image Description:
+
+SIFT(The Scale Invariant Feature Transform)is a descriptor describes the local shape of a region using edge orientation histograms. The gradient of an image is shift-invariant: tak- ing the derivative cancels out offsets . Under light intensity changes, i.e. a scaling of the intensity chan- nel, the gradient direction and the relative gradient magni- tude remain the same. Because the SIFT descriptor is nor- malized, the gradient magnitude changes have no effect on the final descriptor. Light color changes have no effect on the descriptor because the input image is converted to gray- scale, after which the intensity scale-invariance argument applies.
+Typical Usage   
+For set of database images: 
+1. Compute SIFT features 
+2. Save descriptors to database 
+For query image: 
+1. Compute SIFT features
+2. For each descriptor: 
+      • Find a match 
+3. Verify matches 
+      • Geometry 
+      • Hough transform
+      
+RGB histogram The RGB histogram is a combination of
+three 1-D histograms based on the R, G and B channels of
+the RGB color space. This histogram possesses no invari-
+ance properties.
+Sharpness
+Clearly distinguishable objects under friendly weather
+conditions are expected to have sharp edges with large
+contrast differences. it is used to determine the sharpness of the test
+images. It is based on an average determination of the sobel
+gradient magnitude
+
+
+Frameworks:
+
+Caffee:
+Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is faster than other frameworks such as tensorflow. It is especially used for image classification. Also more understandable. : Caffe already powers academic research projects, startup prototypes, and even large-scale industrial applications in vision, speech, and multimedia. 
+Official website: http://caffe.berkeleyvision.org
+
+Tensorflow:
+Tensorflow is most powerful library for deep learning. But it is slower than caffee. and to undarstand and to implement is so hard. It is used widely area: speech recognition, natural language processing, image and video recognition, data mining etc.
+Official website: https://www.tensorflow.org/
+
+Keras
+Library for tensorflow. It uses neural network for classification.
+Official website: https://keras.io/
+
+LIBSVM
+A Library for Support Vector Machines
+Official website: https://www.csie.ntu.edu.tw/~cjlin/libsvm/
